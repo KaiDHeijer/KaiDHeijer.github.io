@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+.Header {
+    color: red;
+    border-style: solid;
+    width: auto;
+}
+
+.Header h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.navButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navButtons button {
+    width: 200px;
+    height: 45px;
+    border-color: red;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    background-color: black;
+}
+
+button:hover {
+    background-color: black;
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.locationInfo h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: groove;
+    border-color: red;
+}
+
+.locationInfo {
+    color: red
+}
+
+.DojoImg{
+    border-style: dotted;
+    border-color: red;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: fit-content;
+}

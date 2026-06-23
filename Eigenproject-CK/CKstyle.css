@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 25%;
+}
+
+.Header {
+    color: red;
+    border-style: solid;
+    width: auto;
+}
+
+.Header h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.navButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navButtons button {
+    width: 200px;
+    height: 45px;
+    border-color: red;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    background-color: black;
+}
+
+button:hover {
+    background-color: black;
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.logo img {
+    transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+

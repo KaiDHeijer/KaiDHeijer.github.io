@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BecomeACobraPage</title>
+    <link rel="stylesheet" href="/Eigenproject-CK/BecomeACobra.css">
+</head>
+
+<body>
+    <header class="Header">
+        <h1>Cobra Kai</h1>
+    </header>
+
+    <nav>
+        <div class="navButtons">
+            <button id="HomeButton">Home</button>
+            <button id="LocationButton">Location</button>
+            <button id="SignupButton">Become A Cobra</button>
+        </div>
+    </nav>
+    <section class="BecomeACobra">
+        <div class="SignupForm">
+            <h2>Ready to learn The Way of The Fist?</h2>
+        </div>
+        <div class="Signup">
+            <form action="#">
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="dojo">Preferred Dojo Location:</label><br>
+                <select id="dojo" name="dojo" required>
+                    <option value="kingCobra">King Cobra Dojo</option>
+                    <option value="cobraKai">Cobra Kai Dojo</option>
+                    <option value="westValley">West Valley Dojo</option>
+                    <option value="northHollywood">North Hollywood Dojo</option>
+                </select><br><br>
+                <input type="submit" value="Join Now">
+            </form>
+        </div>
+    </section>
+
+    <script src="/Eigenproject-CK/BecomeACobra.js"></script>
+</body>
+
+</html>
