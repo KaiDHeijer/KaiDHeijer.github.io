@@ -1,0 +1,95 @@
+:root {
+    --primary-color: rgb(0, 200, 255);
+    --secondary-color: #2b83ff;
+
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 100px 400px 70px;
+    grid-template-areas:
+        "hd hd hd"
+        "c c c"
+        ". mn ."
+        "ft ft ft";
+}
+
+header {
+    grid-area: hd;
+    border: 2px solid black;
+    background-color: turquoise;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    grid-area: mn;
+    border: 2px solid black;
+    background-color: lightblue;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.questions {
+    height: 100px;
+}
+
+button {
+    width: 300px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    color: rgb(58, 58, 58);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#questionText {
+    color: rgb(58, 58, 58);
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.circles {
+    height: 70px;
+    grid-area: c;
+    border: 2px solid black;
+    background-color: lightblue;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+.circles div {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.Green {
+    background-color: green;
+}
+
+.Red {
+    background-color: red;
+}
+
+.hidden {
+    display: none;
+}
